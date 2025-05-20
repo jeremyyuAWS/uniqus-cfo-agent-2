@@ -36,8 +36,7 @@ export const AgentDemoContainer: React.FC<AgentDemoContainerProps> = ({
 
   // Restart demo when opened
   useEffect(() => {
-    if (isOpen) {
-      setConversation([]);
+    if (isOpen && conversation.length === 0) {
       setCurrentMessageIndex(0);
       setDemoStage(0);
       
@@ -48,7 +47,7 @@ export const AgentDemoContainer: React.FC<AgentDemoContainerProps> = ({
       
       return () => clearTimeout(timer);
     }
-  }, [isOpen, agent]);
+  }, [isOpen, agent, conversation.length]);
 
   // Handle demo stage advancement based on conversation progress
   useEffect(() => {
