@@ -12,7 +12,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <img src="/images/Uniqus-logo.png" alt="Uniqus Logo" className="h-8" />
-              <span className="ml-2 font-semibold text-xl text-gray-900">Finance AI</span>
+              <span className="ml-2 font-semibold text-xl text-gray-900">AI Agents Hub</span>
             </div>
             <div className="flex items-center space-x-4">
               <button className="inline-flex items-center px-3 py-1 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition duration-150">

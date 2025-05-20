@@ -19,7 +19,7 @@ function App() {
     <Layout>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-          Uniqus Finance AI Hub
+          Uniqus AI Agents Hub
         </h1>
         <p className="text-lg text-gray-700 mb-8 max-w-3xl">
           Advanced AI agents for finance operations, 
